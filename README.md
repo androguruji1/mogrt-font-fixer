@@ -1,9 +1,11 @@
-# 🔤 Mogrt Font Fixer
+# 🔤 Mogrt Font Fixer — FREE
 
 **Stop hunting for missing fonts in Premiere Pro.**
-Mogrt Font Fixer automatically finds, downloads and installs the fonts your MOGRT templates need — so every template looks exactly the way it was designed.
+Mogrt Font Fixer automatically finds, downloads and installs the fonts your MOGRT templates need — so every template looks the way it was designed.
 
-> 💰 This is a **paid tool**. The source code is private — this repo is the official showcase, changelog and support page.
+> 🆓 **Free for everyone.** Made by an editor, for editors.
+
+[![Download](https://img.shields.io/badge/⬇️_Download-Mogrt_Font_Fixer_v2.0-2EA043?style=for-the-badge)](https://github.com/androguruji1/mogrt-font-fixer/archive/refs/heads/main.zip)
 
 ---
 
@@ -17,46 +19,61 @@ Multiply that by hundreds of templates. That's hours wasted every month.
 
 | Feature | What it means for you |
 |---|---|
-| 🔍 **Auto-detect fonts** | Scans your MOGRTs and finds every font they use |
-| ⬇️ **Auto-download & install** | Gets missing fonts and installs them — no manual steps |
-| 🗂️ **Works on old MOGRTs too** | Fixes templates you installed months ago, not just new ones |
-| 🔁 **Runs in the background** | Starts automatically and handles new MOGRTs as you add them |
-| 🪶 **Lightweight** | Low memory use, cleans up its own temp files over time |
-| 💻 **Mac + Windows** | One download, both platforms, with a simple setup guide |
+| 🔍 **Auto-detect fonts** | Reads every installed MOGRT and finds the fonts it uses |
+| ⬇️ **Auto-download & install** | Gets missing fonts from free sources — Google Fonts, Font Squirrel, DaFont, 1001 Fonts, Befonts |
+| 🪄 **Stand-in fonts** | Paid font not available for free? A similar free font is installed under the same name, so Premiere stops showing "missing font" |
+| 🔁 **Runs in the background** | Starts with your computer. Install a new MOGRT and its fonts are checked within ~20 seconds |
+| 📄 **Clear report** | HTML report of installed fonts, stand-ins, and fonts not found (with search links) |
+| 🎯 **Check one file** | Drag a .mogrt, .prproj or .aep onto the "Mogrt Font Scan" icon |
+| 🪶 **Lightweight** | ~15–25 MB RAM, cleans up its own logs and cache |
+| 💻 **Mac + Windows 10/11** | No Python setup needed — the installer handles it |
 
 ---
 
-## 🎬 Demo
+## 🚀 Install
 
-*Demo video coming soon on [YouTube @androguruji](https://www.youtube.com/@androguruji).*
+**Mac**
+1. Download the ZIP above and double-click it.
+2. Open **Terminal**, type `bash ` (with a space), drag `install.sh` into the window and press **Enter**.
+3. The first scan takes 2–10 minutes. The report opens in your browser when done.
+
+**Windows**
+1. Download the ZIP, right-click → **Extract All**.
+2. Double-click `install_windows.bat`. If you see "Windows protected your PC", click **More info → Run anyway**.
+3. The first run downloads a small Python (~40 MB), then scans for 2–10 minutes. Keep the window open.
+
+Full step-by-step guide (Hinglish): [README.txt](README.txt)
+
+## 🗑️ Uninstall
+
+- **Mac:** `bash ~/Applications/MogrtFontFixer/uninstall.sh`
+- **Windows:** open `%LOCALAPPDATA%\MogrtFontFixer` and double-click `uninstall_windows.bat`
 
 ---
 
-## 🛒 Get It
+## ⚠️ Font licensing
 
-**Launching soon on my store.** Meanwhile, check out my other tools and packs for editors:
-
-[![Shop Now](https://img.shields.io/badge/🛒_Shop_Now-superprofile.bio%2Fandroguruji-7C3AED?style=for-the-badge)](https://superprofile.bio/androguruji)
-
-For early access, DM me on [Instagram @androguruji](https://www.instagram.com/androguruji) or join the [Telegram channel](https://t.me/androgurujiofficial).
+- Many fonts on free sites (like DaFont) are **personal use only**. Check the licence before using a font in client or commercial work.
+- A stand-in is **not** the real font — it only looks similar. If a client needs the exact font, buy it and delete the `STANDIN__` file.
+- This tool never downloads paid fonts from pirated sites.
 
 ---
 
 ## 🐞 Support
 
-Found a bug or have a feature request? Open an **[Issue](../../issues)** in this repo.
-
----
+Found a bug? Open an **[Issue](../../issues)** and attach your `log.txt` (inside the tool's folder).
 
 ## 📝 Changelog
 
-- **v1.0** — Coming soon
+- **v2.0** — Current release: Mac + Windows, background watcher, stand-in fonts, HTML report
 
 ---
 
-### ⚠️ Font licensing
+## ❤️ Like it?
 
-Fonts are fetched from free font sources and many are licensed for **personal use only**. Always check a font's licence before using it in commercial or client work.
+Subscribe on [YouTube @androguruji](https://www.youtube.com/@androguruji) and check out my other tools and packs for editors:
+
+[![Shop Now](https://img.shields.io/badge/🛒_Shop_Now-superprofile.bio%2Fandroguruji-7C3AED?style=for-the-badge)](https://superprofile.bio/androguruji)
 
 ---
 
