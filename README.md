@@ -34,7 +34,11 @@ Multiply that by hundreds of templates. That's hours wasted every month.
 
 ## 🛒 Get It
 
-**Launching soon.** For early access, DM me on [Instagram @androguruji](https://www.instagram.com/androguruji) or join the [Telegram channel](https://t.me/androgurujiofficial).
+**Launching soon on my store.** Meanwhile, check out my other tools and packs for editors:
+
+[![Shop Now](https://img.shields.io/badge/🛒_Shop_Now-superprofile.bio%2Fandroguruji-7C3AED?style=for-the-badge)](https://superprofile.bio/androguruji)
+
+For early access, DM me on [Instagram @androguruji](https://www.instagram.com/androguruji) or join the [Telegram channel](https://t.me/androgurujiofficial).
 
 ---
 
